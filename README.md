@@ -32,4 +32,4 @@ Example appsettings.Development.json file:
 
 { "Logging": { "LogLevel": { "Default": "Information", "Microsoft": "Information", "Microsoft.Hosting.Lifetime": "Information" } }, "ConnectionStrings" : { "DefaultConnection": "Data source=datingapp.db", "SqliteConnection": "Data source=datingapp.db", "PostgresConnection": "Server=localhost; Port=5432; User Id=[ID]; Password=[PASSWORD]; Database=datingapp"
 
-}, "TokenKey": "super secret unguessable key" }
+}, "TokenKey": "[SECRET]" }
